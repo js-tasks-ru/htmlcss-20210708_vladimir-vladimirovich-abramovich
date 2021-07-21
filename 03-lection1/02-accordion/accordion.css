@@ -1,20 +1,15 @@
-/* Стилизация аккордеона */
-.accordion{
+.accordion {
     font-size: 16px;
     line-height: 24px;
 }
 
-.accordion__item{
+.accordion__item {
     padding: 24px 48px 32px 32px;
     margin-bottom: 8px;
-    background: #FFFFFF;
-    border: 1px solid #ACB5BD;
+    background: var(--white);
+    border: 1px solid var(--grey-3);
     box-sizing: border-box;
     border-radius: 8px;
-
-
-}
-.accordion__item {
     width: 730px;
     margin-bottom: 8px;
 }
@@ -22,13 +17,13 @@
 .accordion__item:last-child {
     margin-bottom: 0;
 }
+
 .accordion__summary {
     display: block;
     position: relative;
-  }
+}
 
 .accordion__summary::-webkit-details-marker {  
-    /* нестандартный псевдоэлемент Google Chrome */
     display: none;
 }
 
@@ -36,6 +31,6 @@
     content: '\25B6';
     position: absolute;
     right: 10px;
-  }
+}
   
   
