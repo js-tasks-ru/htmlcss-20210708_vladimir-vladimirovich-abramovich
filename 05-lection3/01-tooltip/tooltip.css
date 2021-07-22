@@ -1,0 +1,48 @@
+body , html {
+    height: 100%;
+    width: 500px;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding-top: 100px; 
+}
+
+.tooltip {
+    display: inline-block;
+    position: relative;
+
+}
+
+.tooltip__help {
+    background: #4263EB;
+    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+    border-radius: 10px;
+    padding: 13px 21px;
+    width: 130px;
+    color: #fff;
+    text-align: center;
+    position: absolute ;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+}
+
+.tooltip__icon {
+    display: inline-block;
+    margin-top: 55px;
+}
+
+.tooltip__help:before {
+    content: "";
+    border: 14px solid transparent; 
+    border-top: 6px solid #4263EB;
+    position: absolute;
+    left:50%;
+    top:95%;
+    transform:translateX(-50%);    
+}
+
+.tooltip:hover .tooltip__help {
+    display: block;
+}
