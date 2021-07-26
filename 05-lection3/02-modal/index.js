@@ -3,8 +3,9 @@
     const modal = document.getElementById('modal');
     const modalOpen = document.getElementById('modal-open');
 
-    if (!close || !modalOpen || !modal) {
+    if (!close || !modalOpen || !modal){
         return;
+        
     }
 
     modalOpen.addEventListener('click', () => {
