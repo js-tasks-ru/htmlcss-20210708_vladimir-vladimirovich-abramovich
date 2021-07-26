@@ -3,7 +3,7 @@
     const modal = document.getElementById('modal');
     const modalOpen = document.getElementById('modal-open');
 
-    if ( !modalOpen || !modal) {
+    if (!close || !modalOpen || !modal){
         return;
     }
 
