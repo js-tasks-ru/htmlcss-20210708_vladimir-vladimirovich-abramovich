@@ -1,13 +1,10 @@
-
-
 .tooltip {
     display: inline-block;
     position: relative;
-
 }
 
 .tooltip__help {
-    background: #4263EB;
+    background: var(--blue);
     box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
     border-radius: 10px;
     padding: 13px 21px;
@@ -18,11 +15,13 @@
     left: 50%;
     transform: translateX(-50%);
     display: none;
+    
 }
 
 .tooltip__icon {
     display: inline-block;
-    margin-top: 55px;
+    position: relative;
+    top: 55px;
 }
 
 .tooltip__help:before {
