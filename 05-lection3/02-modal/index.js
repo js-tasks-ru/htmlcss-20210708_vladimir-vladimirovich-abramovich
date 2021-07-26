@@ -5,6 +5,7 @@
 
     if (!close || !modalOpen || !modal){
         return;
+        
     }
 
     modalOpen.addEventListener('click', () => {
