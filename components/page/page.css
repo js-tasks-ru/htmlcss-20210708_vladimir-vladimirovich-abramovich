@@ -1,0 +1,13 @@
+.page{
+    background:var(--white);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+.page__box{
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}   
