@@ -1,5 +1,6 @@
 @import '../fonts/fonts.css';
 
+
 :root {
     --white: #ffffff;
     --black: #212429;
@@ -14,6 +15,7 @@
     --grey-4: #495057;
     --grey-5: #334D6E;
     --grey-6: #90A0B7;
+    --grey-7: #F9FAFC;
     --light-blue:#A0B1F5;
     --alternate: none;
     --primary-dark: #2342C0;
