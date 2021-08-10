@@ -31,7 +31,7 @@
     margin-top: 20px;   
 }   
 
-.card__footer_title {
+.card__footer-title {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -42,7 +42,7 @@
     margin-bottom: 2px;
 }
 
-.card__footer_text {
+.card__footer-text {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;

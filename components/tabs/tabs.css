@@ -21,11 +21,11 @@
     color: var(--grey-3);
 }
 
-.tabs__menu > li {
+.tabs__menu-item {
     margin-right: 40px;
 }
 
-.tabs__menu :last-child {
+.tabs__menu-item:last-child {
     margin-right: 0;
 }
 
