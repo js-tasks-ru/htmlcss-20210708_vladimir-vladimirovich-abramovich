@@ -1,4 +1,13 @@
 .main{
     flex-grow: 1;
-    background-color:#E5E5E5;
+}
+
+.main__title{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 64px;
+    color: var(--black);
+    margin: 10px 0 20px 0;
 }
