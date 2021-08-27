@@ -37,4 +37,5 @@
 }
 .button_alternate:hover{
     border: 1px solid var(--black);
+    cursor: pointer;
 }   
