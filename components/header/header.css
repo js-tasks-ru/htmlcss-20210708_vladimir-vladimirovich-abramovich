@@ -2,3 +2,30 @@
     padding: 25px 0;   
     height: 32px;          
 }
+.header__iner {
+    display: flex;
+}
+.header__logo {
+    margin-right: auto;
+}
+.header__text {
+    display: flex;
+    margin-right: 55px;
+    gap: 24px;
+    align-items:center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey-3);
+}
+.header__nav {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.header__text-hover:hover{
+    color:var(--black);
+    cursor: pointer;
+}
